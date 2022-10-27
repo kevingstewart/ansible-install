@@ -1,6 +1,6 @@
 # Quick Ansible Install and Staging Scripts
 
-#### *Requires Ubuntu and Bash*
+#### *Requires Ubuntu and Bash (18.04+)*
 
 **Install Ansible**
     

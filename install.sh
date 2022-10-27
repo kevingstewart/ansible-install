@@ -12,7 +12,7 @@ debconf-set-selections /tmp/preseed.cfg
 rm -f /etc/timezone /etc/localtime
 apt-get update && apt-get install -y tzdata
 
-apt update && apt install -y python3-pip ansible
+apt update && apt install -y python3-pip ansible subversion
 ansible --version
 
 rm -- "$0"
